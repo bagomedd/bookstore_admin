@@ -59,7 +59,6 @@ sudo docker compose up
 - publisher_id:         UUID        ID издательства (Внешний ключ)
 - author:               VARCHAR     ФИО автора
 - title:                VARCHAR     название книги 
-- last_supply_date:     DATE        дата последней поставки
 - retail_price:         NUMERIC     розничная цена
 - copies_sold:          INTEGER     количество проданных экземпляров
 
