@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "ignoreDeprecations": "6.0",
+        "baseUrl": "./",
+        "paths": {
+            "@src/*": ["src/*"],
+            "@controllers/*": ["src/controllers/*"],
+            "@models/*": ["src/models/*"],
+            "@routes/*": ["src/routes/*"]
+        },
+        "module": "commonjs"
+    }
+}
